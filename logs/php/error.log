@@ -77,3 +77,7 @@ Stack trace:
 [22-Dec-2024 17:57:22 UTC] PHP Warning:  Undefined array key "hero_section_top_title" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 270
 [22-Dec-2024 17:57:22 UTC] PHP Warning:  Undefined array key "hero_section_bio_text" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 274
 [22-Dec-2024 17:57:22 UTC] PHP Warning:  Undefined array key "button_text1" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 279
+[22-Dec-2024 18:18:00 UTC] PHP Warning:  Undefined array key "hero_section_bar_title" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 266
+[22-Dec-2024 18:18:00 UTC] PHP Warning:  Undefined array key "hero_section_top_title" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 270
+[22-Dec-2024 18:18:00 UTC] PHP Warning:  Undefined array key "hero_section_bio_text" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 274
+[22-Dec-2024 18:18:00 UTC] PHP Warning:  Undefined array key "button_text1" in C:\Users\Dev Ridhwan\Local Sites\event-git\app\public\wp-content\plugins\et-core\widgets\count-down.php on line 279
