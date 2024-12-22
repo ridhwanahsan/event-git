@@ -1,0 +1,187 @@
+/*
+Theme Name: event
+Theme URI: http://example.com/
+Author: Ridhwan Ahsan
+Author URI: http://example.com/
+Description: A custom WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: event
+*/
+.navbar-area {
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    padding: 0;
+    /* background-color: black; */
+}
+
+.navbar-nav .nav-item .sub-menu.collapse:not(.show) {
+    display: block;
+}
+.navbar-nav .nav-item:hover .sub-menu {
+    top: 100% !important;
+}
+.navbar-nav .nav-item:hover > .sub-menu {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.navbar-nav .nav-item .sub-menu {
+    padding: 30px;
+    min-width: 240px;
+    background: #fff;
+    -webkit-box-shadow: 0px 5px 20px #0000001a;
+    box-shadow: 0px 5px 20px #0000001a;
+    position: absolute;
+    top: 110% !important;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 0 0 4px 4px;
+    border-radius: 5px;
+
+}
+
+.navbar-nav .nav-item a {
+    font-size: 15px;
+    /* color: #fff; */
+    /* -webkit-transition: all 0.3s ease-out 0s; */
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    padding: 35px 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 500;
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.single-blog-grid .blog-img img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    height: auto;
+}
+.single-blog-grid ul.post-categories {
+    display: flex;
+    padding: 0px 0px;
+}
+.single-blog-grid ul.post-categories li {
+   margin-right: 10px;
+}
+
+ ul.pagination-list span.page-numbers.current {
+    background: #3813c2;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    text-align: center;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+.blog-single .post-thumbnils img {
+    width: 100%;
+    height: auto;
+}
+
+h3.sidebar__widget-title {
+    color: #fff;
+    font-size: 34px;
+    padding: 16px 0px;
+    margin: 0;
+}
+
+/* recent post widget */
+.sidebar .single-popular-feed {
+    position: relative;
+    padding-left: 100px;
+}
+.sidebar .sidebar__widget .single-popular-feed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.185);
+    min-height: 108px;
+}
+
+.sidebar .single-popular-feed .feed-img {
+    overflow: hidden;
+    width: 80px;
+    border-radius: 5px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sidebar .widget_custom_recent_posts {
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #101130;
+}
+
+
+.single-popular-feed  .post-title {
+    margin-bottom: 10px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    color: #fff;
+}
+.breadcrumbs .breadcrumbs-content .breadcrumb-nav {
+    background: transparent;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: inline-block;
+    color: #fff;
+}
+
+
+.breadcrumbs .breadcrumbs-content .breadcrumb-nav span {
+    
+    color: #fff;
+}
+
+.service-icon svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal 1em / 1 'LineIcons';
+    color: #fff;
+    fill: #fff;
+    flex-shrink: 0;
+    speak: none;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 6px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.service-icon svg path {
+    fill: #fff;
+}
